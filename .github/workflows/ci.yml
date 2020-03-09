@@ -174,9 +174,6 @@ jobs:
         with:
           path: src/micro-ros-build
 
-      - name: Dependencies
-        run: apt-get install -y ed
-
       - name: Rosdep
         run: rosdep update
 
