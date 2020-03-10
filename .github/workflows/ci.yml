@@ -3,7 +3,7 @@ name: CI
 on:
   push:
     branches:
-    - CI_test
+    - feature/CI_test
 
 jobs:
 
