@@ -113,7 +113,6 @@ jobs:
     needs: micro_ros_build
     
     strategy:
-    fail-fast: false
     matrix:
       rtos: [nuttx, freertos]
       platform: [crazyflie21, generic, olimex-stm32-e407]
