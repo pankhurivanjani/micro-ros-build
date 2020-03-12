@@ -125,11 +125,11 @@ jobs:
         include:
           - rtos: nuttx
             platform: generic
-            configuration: olimex-stm32-e407/pingpong-eth
+            configuration: olimex-stm32-e407/uros
             files: 'firmware/NuttX/nuttx'
           - rtos: nuttx
             platform: olimex-stm32-e407
-            configuration: pingpong-eth
+            configuration: uros
             files: 'firmware/NuttX/nuttx'
           - rtos: freertos
             platform: crazyflie21
