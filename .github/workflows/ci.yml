@@ -109,7 +109,7 @@ jobs:
 
   client_firmware:
     runs-on: ubuntu-latest
-    container: microros/base:dashing
+    container: microros/ci:dashing
     needs: micro_ros_build
     
     strategy:
